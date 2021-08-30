@@ -1,0 +1,83 @@
+body {
+    background: #121212;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-content {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background: #5d5d5d;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 50px;
+}
+.content .img-field {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .img-field img {
+    max-height: 100px;
+    position: relative;
+    object-fit: contain;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.content .content-field {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.content .content-field .title {
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+
+.content .content-field .title-rank {
+    font-style: italic;
+    color: #c1c1c1;
+}
+
+.content .content-field .description {
+    color: #fff;
+}
+
+.bottom-field {
+    padding: 20px 0;
+    border-top: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+a:hover {
+    color: #121212;
+}
